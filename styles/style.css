@@ -4,11 +4,16 @@
     margin: 0;
     font-family: 'Work Sans', sans-serif;
 }
+
+:root{
+    --primary-color: #FF900E;
+}
+
 .common-button{
     width: 120px;
     height: 40px;
     padding: 10px;
-    background-color: #FF900E;
+    background-color: var(--primary-color);
     color: #FFFFFF;
     border: none;
     border-radius: 5px;
