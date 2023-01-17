@@ -83,7 +83,36 @@ header{
     padding-right: 240px;
 }
 
+/* quick list section styles */
 
+.quick-list-container{
+    margin-top: 65px;
+    margin-left: 300px;
+    margin-right: 260px;
+}
+.quick-list{
+    display: flex;
+    align-items: center;
+}
+.quick-list-image{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 12px;
+}
+.quick-list-image img{
+    width: 200px;
+}
+.quick-list-text{
+    margin-left: 55px;
+}
+.quick-list-text h3{
+    font-size: 30px;
+}
+.quick-list-text p{
+    font-size: 12px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
 
 /* responsive styles */
 
@@ -105,6 +134,24 @@ header{
     .banner-image img{
         width: 100%;
         padding: 0;
+    }
+    .quick-list-container{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .quick-list{
+        flex-direction: column;
+        gap: 25px;
+    }
+    .quick-list-image{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .quick-list-image img{
+        width: 75%;
+        margin: 0 auto;
+    }
+    .quick-list-text{
+        margin-right: 15px;
     }
     
 }
