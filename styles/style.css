@@ -246,8 +246,12 @@ header{
     width: 100px;
     filter: grayscale(100%);
 }
+.sponsors-icon img:hover{
+    filter: none;
+}
 
 /* footer section styles */
+
 footer{
     margin: 100px 240px 130px 240px;
 }
