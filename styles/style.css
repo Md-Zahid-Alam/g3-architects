@@ -247,6 +247,21 @@ header{
     filter: grayscale(100%);
 }
 
+/* footer section styles */
+footer{
+    margin: 100px 240px 130px 240px;
+}
+.footer-container{
+    height: 60px;
+    border-radius: 5px;
+    background-color: #FFF4E7;
+}
+.footer-container p{
+    text-align: center;
+    color: #424242;
+    padding: 20px;
+}
+
 /* responsive styles */
 
 @media only screen and (max-width: 576px) {
@@ -325,5 +340,12 @@ header{
     }
     .sponsors-icon img{
         width: 40%;
+    }
+    footer{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .footer-container{
+        height: 80px;
     }
 }
